@@ -49,3 +49,6 @@ public class Factori {
         int hundreds = A / 100;
         int rotated = units * 100 + tens * 10 + hundreds;
         return rotated + rotation * 100;
+    }
+}
+
